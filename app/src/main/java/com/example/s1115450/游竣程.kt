@@ -44,3 +44,19 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
+
+@Composable
+fun FirstScreen(){
+    Column(modifier = Modifier
+        .fillMaxSize()
+        .background(Color.Cyan),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+        )
+        {
+        Button(onClick = {})
+        {
+            Text(text = "跳轉到SecondActivity")
+        }
+    }
+}
